@@ -1,5 +1,7 @@
 # Edge AI: Smart Queuing System
 
+![alt text][image11]
+
 ## What it Does
 
 A common problem with systems that use queues is congestion, where the queues are not managed efficiently. One queue might be overloaded while another is empty. The goal of the project is to build an application to reduce congestions in the queues.
@@ -113,7 +115,7 @@ While Naomi Semiconductors has plenty of revenue to install a quality system, th
 | The client has plenty of revenue to install a quality system, but they’d like it to last for at least 5-10 years.                                    | FPGA is expensive, but it has a long lifespan.             |
 
 
-###Queue Monitoring Requirements
+### Queue Monitoring Requirements
 
 * Maximum number of people in the queue: 2
 * Model precision chosen (FP32, FP16, or Int8): FP16
@@ -166,7 +168,7 @@ Mr. Lin employs close to 300 employees, including staff that work in transportat
 | Budget. Most of the store’s checkout counters already have a modern computer with Intel i7 core processor. The client doesn’t have much money to invest in additional hardware. | CPU doesn’t require the client to spend extra money. |
 
 
-###Queue Monitoring Requirements
+### Queue Monitoring Requirements
 
 * Maximum number of people in the queue: 2
 * Model precision chosen (FP32, FP16, or Int8): FP32
@@ -215,7 +217,7 @@ They monitor the entire situation with 7 CCTV cameras on the platform. These are
 | The CPUs are being used to process and view CCTV footage and no significant processing power is available to run inference. | VPU is an AI accelerator. The pre-existing CPU will not be doing any calculation. |
 
 
-###Queue Monitoring Requirements
+### Queue Monitoring Requirements
 
 * Maximum number of people in the queue: 7
 * Model precision chosen (FP32, FP16, or Int8): FP16
